@@ -10,8 +10,8 @@ release:
 - name: Check status
 runs-on: ubuntu-latest
 steps:
-- name: Checkout
-uses: actions/deploy.yaml@v3
+- name: Uptime CI
+uses: actions/UptimeCI@v3
 - name: Update README
 run: |
 # Get the current date and time in desired format
