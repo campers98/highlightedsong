@@ -9,9 +9,11 @@ jobs:
 release:
 - name: Check status
 runs-on: ubuntu-latest
+
 steps:
-- name: Uptime CI
-uses: actions/Uptime CI@v3
+- name: Checkout
+uses: actions/ Checkout@v3
+
 - name: Update README
 run: |
 # Get the current date and time in desired format
