@@ -11,7 +11,7 @@ release:
 runs-on: ubuntu-latest
 steps:
 - name: Uptime CI
-uses: actions/UptimeCI@v3
+uses: actions/Uptime CI@v3
 - name: Update README
 run: |
 # Get the current date and time in desired format
